@@ -1,0 +1,31 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title >Edit Profile</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+<ion-card>
+<ion-card-content>
+  <ion-item>
+    <ion-label floating>First Name </ion-label>
+    <ion-input type="text" [(ngModel)]="user.firstname" ></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>Last Name </ion-label>
+    <ion-input type="text" [(ngModel)]="user.lastname"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>Date of Birth </ion-label>
+     <ion-datetime displayFormat="DD/MM/YYYY"></ion-datetime>
+  </ion-item>
+</ion-card-content>
+</ion-card>
+<button ion-button block color="primary" (click)="save()">Save Profile</button>
+
+
+</ion-content>
