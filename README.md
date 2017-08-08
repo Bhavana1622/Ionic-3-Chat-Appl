@@ -1,26 +1,18 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+This is a Chat Appl using ionic 3 and angular 4 and FireBase:- Still under Development
 
-## How to use this template
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+authenticate user using Firebase 
+![screencapture-localhost-8100-ionic-lab-1502213138777](https://user-images.githubusercontent.com/25843455/29085549-42a19da4-7c8d-11e7-8dd9-d9cb768df80d.png)
 
-### With the Ionic CLI:
+Once Logged in, the user will set up his/her profile by entering personal details
+![screencapture-localhost-8100-ionic-lab-1502213184583](https://user-images.githubusercontent.com/25843455/29085550-42a6e5c0-7c8d-11e7-91cc-c7f534956d69.png)
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+![screencapture-localhost-8100-ionic-lab-1502213209610](https://user-images.githubusercontent.com/25843455/29085551-42ab37f6-7c8d-11e7-9585-04aef1fbe8b5.png)
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
+FireBase Database after Editing User profile
+![capture](https://user-images.githubusercontent.com/25843455/29085548-4299d3a8-7c8d-11e7-9cb8-4aeb4a65f211.PNG)
 
-Then, to run it, cd into `myBlank` and run:
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+Once the profile has been edited, the user is navigated to the inbox page.
+![screencapture-localhost-8100-ionic-lab-1502213353175](https://user-images.githubusercontent.com/25843455/29085552-42b1175c-7c8d-11e7-806e-2e1b6b188a72.png)
